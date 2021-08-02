@@ -1,0 +1,27 @@
+{
+  "name": "ServiceComponents",
+  "version": "0.1.0",
+  "summary": "A short description of ServiceComponents.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Wayment/ServiceComponents",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Wayment": "ina006@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/Wayment/ServiceComponents.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ServiceComponents/Classes/**/*",
+  "dependencies": {
+    "Environment": [
+
+    ]
+  }
+}

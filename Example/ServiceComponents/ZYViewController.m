@@ -8,6 +8,8 @@
 
 #import "ZYViewController.h"
 
+#import <KLEnvironmentHelper.h>
+
 @interface ZYViewController ()
 
 @end
@@ -24,6 +26,10 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [KLEnvironmentHelper showEnvVC:self];
 }
 
 @end

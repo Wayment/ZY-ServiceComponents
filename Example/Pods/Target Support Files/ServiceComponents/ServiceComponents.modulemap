@@ -1,0 +1,6 @@
+framework module ServiceComponents {
+  umbrella header "ServiceComponents-umbrella.h"
+
+  export *
+  module * { export * }
+}

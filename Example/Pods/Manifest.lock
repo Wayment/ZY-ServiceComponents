@@ -1,0 +1,27 @@
+PODS:
+  - Environment (0.1.0)
+  - ServiceComponents (0.1.0):
+    - Environment
+
+DEPENDENCIES:
+  - Environment (from `https://github.com/Wayment/ZY-Environment.git`)
+  - ServiceComponents (from `../`)
+
+EXTERNAL SOURCES:
+  Environment:
+    :git: https://github.com/Wayment/ZY-Environment.git
+  ServiceComponents:
+    :path: "../"
+
+CHECKOUT OPTIONS:
+  Environment:
+    :commit: be55f3c572b47084d4d3cd072299fa8ce78ceee3
+    :git: https://github.com/Wayment/ZY-Environment.git
+
+SPEC CHECKSUMS:
+  Environment: 171b2b745e4096a2290d74a47374967dc5c8bcfa
+  ServiceComponents: f8482539575aa6ca09c99fb2e01cfe8b6e8207dd
+
+PODFILE CHECKSUM: 71dae0a8aec773c6a03acbff1e4949caca995e78
+
+COCOAPODS: 1.10.1

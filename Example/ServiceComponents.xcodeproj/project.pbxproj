@@ -346,10 +346,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ServiceComponents_Example/Pods-ServiceComponents_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Environment/Environment.framework",
 				"${BUILT_PRODUCTS_DIR}/ServiceComponents/ServiceComponents.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Environment.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ServiceComponents.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
